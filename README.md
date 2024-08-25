@@ -1,1 +1,3 @@
 # DigitalWalletManagementSystem
+
+It reads the user details, like the user IDs and their balances, and further processes a set of transactions where money gets transferred from one user to another. In this, each transaction checks that the sender has enough balance to complete the transaction, deducting the amount from the sender and adding it to the recipient. Successful transactions are marked with "Success," but when there is not enough money in the balance, it shows "Failure.". Finally, the users are sorted in ascending order of their final balances, and their IDs are printed out together with updated balances for a final overview of the financial standings.
